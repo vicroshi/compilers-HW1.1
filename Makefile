@@ -1,3 +1,5 @@
 all:
 	javac -d out -sourcepath src src/Main.java
-	java out/Main
+	java -classpath out Main
+clean:
+	rm -rf out/*.class
