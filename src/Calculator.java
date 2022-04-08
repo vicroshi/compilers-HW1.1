@@ -30,9 +30,9 @@ public class Calculator
 	}
 	
 	public void printCalculations() throws IOException,ParseError{
-		while (lookahead != -1){
+		//while (lookahead != -1){
 			System.out.println(calc());
-		}
+		//}
 	}
 	
 	private int calc() throws IOException,ParseError{
